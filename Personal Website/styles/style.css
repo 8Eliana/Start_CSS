@@ -1,0 +1,17 @@
+:root{
+    --primary-color : #EEEDEB;
+    --secondary-color1: #E0CCBE;
+    --secondary-color2: #747264;
+    --secondary-color3: #3C3633;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--secondary-color3);
+  }
+  
+body{
+ margin: 0px;
+}
