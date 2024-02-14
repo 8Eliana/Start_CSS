@@ -1,0 +1,22 @@
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color1);
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--secondary-color2);
+}
+
+.footer-text{
+    text-align: center;
+}
