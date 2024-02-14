@@ -1,0 +1,29 @@
+.my-skills{
+    background-color: var(--secondary-color2);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-skills-section{
+    display: grid;
+    grid-template-columns: 0.25fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+}
+
+.skills-image1{
+    height: 150px;
+    border-radius: 100px;
+}
+
+.skills-image2{
+    height: 150px;
+}
+
+.title-section-skill{
+    padding-bottom: 30px;
+}
