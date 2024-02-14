@@ -1,4 +1,4 @@
-#cover{
+.cover{
     background-color: var(--secondary-color1);
     display: flex;
     align-items: center;
@@ -25,24 +25,22 @@
 }
 
 @media (min-width:1200px) and (max-width:1300px) {
-    #cover{
+    .cover{
         gap: 100px;
     }
 }
 
 @media (min-width:1000px) and (max-width:1200px) {
-    #cover{
+    .cover{
         gap: 50px;
     }
 }
 
 @media (max-width:1000px) {
-    #cover{
-        display: grid;
-        gap: 0px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+    .cover{
         height: 800px;
+        gap: 0px;
+        flex-direction: column;
     }
 
     .image-cover-1,.image-cover-2{
